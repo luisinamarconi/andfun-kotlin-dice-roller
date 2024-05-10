@@ -32,6 +32,10 @@ android {
         vectorDrawables.useSupportLibrary = true
         namespace("com.example.android.diceroller")
 
+        buildFeatures {
+            viewBinding = true
+        }
+
     }
     buildTypes {
         release {
